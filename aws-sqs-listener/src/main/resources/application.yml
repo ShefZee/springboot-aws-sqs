@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+cloud:
+  aws:
+    region:
+      static: us-east-2
+      auto: false
+    credentials:
+      access-key: <your key>
+      secret-key: <your key>
+    end-point:
+      uri: your uri
+
+
